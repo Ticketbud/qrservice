@@ -2,6 +2,10 @@
 A simple QR code service
 
 # Usage
+Create a folder named "images"
+
+then
+
 ```
 ./qrservice
 ```
