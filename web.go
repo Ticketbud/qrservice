@@ -41,7 +41,7 @@ func homeHandler( w http.ResponseWriter, r *http.Request) {
 	} else {
 		encodedValue := r.FormValue("encode")
 		encode(encodedValue)
-		p := &Page{Title: "Test", Body: encodedValue, Message: encodedValue}
+		p := &Page{Title: "Ticketbud QR Service", Body: encodedValue, Message: encodedValue}
 		renderTemplate(w, "result", p)
 	}
 }

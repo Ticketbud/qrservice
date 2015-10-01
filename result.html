@@ -1,7 +1,11 @@
 <html>
-  <head></head>
+  <head>
+    <title>{{printf "%s" .Title}}</title>
+  </head>
   <body>
-    {{printf "%s" .Body}}
     <img src="./images/{{printf "%s" .Message}}.png" />
+    <p>
+      {{printf "%s" .Body}}
+    </p>
   </body>
 </html>
